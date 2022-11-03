@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VWN Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>
+        Calculate your rewards
+    </p>
+    <form action="?" method="GET" id="form">
+        <div id="vendor-bills">
+            <label for="vbill">Vendor/Bills</label>
+            <input name="ven" class="num" id="vbill" type="number" placeholder="Enter a number" required min="0">
+        </div>
+        <div id="mediaad-spend">
+            <label for="med">Media/Ad Spend</label>
+            <input name="media" class="num" id="med" type="text" placeholder="Enter a number" required min="0">
+        </div>
+        <div id="corp-spend">
+            <label for="corp">Corp. Spend</label>
+            <input name="corp" class="num" id="corp" type="text" placeholder="Enter a number" required min="0">
+        </div>
+        <div id="team-project">
+            <label for="proj">Team Project</label>
+            <input name="team" class="num" id="proj" type="text" placeholder="Enter a number" required min="0">
+        </div>
+        <h2>Compare your rewards</h2>
+
+        <button id="brex" class="img-button" type="button"  width="65px" height="30px"><img src="Brex.png" width="60px" height="40px"></button>
+        <button id="stripe" class="img-button" type="button"  width="65px" height="30px"><img src="Stripe.png" width="60px" height="40px"></button>
+        <button id="amex" class="img-button" type="button"  width="65px" height="30px"><img src="Amex.png" width="60px" height="40px"></button>
+    </form>
+    <div id="results"></div>
+    <script src="main.js"></script>
+</body>
+</html>

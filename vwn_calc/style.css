@@ -1,0 +1,57 @@
+* {
+    font-family:  sans-serif;
+    font-weight:bold;
+    text-align: left;
+    color: blueviolet;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+label {
+    color: black;
+    font-size: 20px;
+}
+/* .img-button {
+    padding: 15px;
+    text-align: left;
+    border: 2px solid blue;
+    border-radius: 5px ;
+
+} */
+
+.num {
+    border: 2px solid blue;
+    border-radius: 5px ;
+}
+::placeholder{
+    color: blue;
+}
+
+img:hover{
+    width: 70px;
+    height: 55px;
+    text-align: left;
+    /* border: 2px solid blue;
+    border-radius: 5px ; */
+}
+ button {
+    border: 2px solid blue;
+    border-radius: 5px ;
+ }
+ button:hover {
+    border: 2px solid violet;
+    border-radius: 5px ;
+ }
+ progress{
+    margin-left: 15px;
+ }
+ span{
+    margin-left: 15px;
+    color: black;
+ }
+h2{
+    color: blueviolet;
+    margin-left: 150px;
+    margin-top: 30px;
+} 
